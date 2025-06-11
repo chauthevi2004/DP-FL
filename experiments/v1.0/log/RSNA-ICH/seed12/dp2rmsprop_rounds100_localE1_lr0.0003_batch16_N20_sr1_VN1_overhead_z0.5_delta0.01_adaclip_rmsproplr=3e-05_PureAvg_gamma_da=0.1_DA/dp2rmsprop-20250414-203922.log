@@ -1,0 +1,94 @@
+[20:39:22.627] [Client 0] Train=750, Val=250, Test=250
+[20:39:22.628] [Client 1] Train=750, Val=250, Test=250
+[20:39:22.628] [Client 2] Train=750, Val=250, Test=250
+[20:39:22.629] [Client 3] Train=750, Val=250, Test=250
+[20:39:22.629] [Client 4] Train=750, Val=250, Test=250
+[20:39:22.630] [Client 5] Train=750, Val=250, Test=250
+[20:39:22.630] [Client 6] Train=750, Val=250, Test=250
+[20:39:22.630] [Client 7] Train=750, Val=250, Test=250
+[20:39:22.631] [Client 8] Train=750, Val=250, Test=250
+[20:39:22.631] [Client 9] Train=750, Val=250, Test=250
+[20:39:22.631] [Client 10] Train=750, Val=250, Test=250
+[20:39:22.632] [Client 11] Train=750, Val=250, Test=250
+[20:39:22.632] [Client 12] Train=750, Val=250, Test=250
+[20:39:22.633] [Client 13] Train=750, Val=250, Test=250
+[20:39:22.633] [Client 14] Train=750, Val=250, Test=250
+[20:39:22.634] [Client 15] Train=750, Val=250, Test=250
+[20:39:22.634] [Client 16] Train=750, Val=250, Test=250
+[20:39:22.634] [Client 17] Train=750, Val=250, Test=250
+[20:39:22.635] [Client 18] Train=750, Val=250, Test=250
+[20:39:22.635] [Client 19] Train=750, Val=250, Test=250
+[20:39:22.636] [Virtual Client 0-0] Train=750
+[20:39:22.636] [Virtual Client 1-0] Train=750
+[20:39:22.637] [Virtual Client 2-0] Train=750
+[20:39:22.637] [Virtual Client 3-0] Train=750
+[20:39:22.637] [Virtual Client 4-0] Train=750
+[20:39:22.638] [Virtual Client 5-0] Train=750
+[20:39:22.638] [Virtual Client 6-0] Train=750
+[20:39:22.639] [Virtual Client 7-0] Train=750
+[20:39:22.639] [Virtual Client 8-0] Train=750
+[20:39:22.640] [Virtual Client 9-0] Train=750
+[20:39:22.640] [Virtual Client 10-0] Train=750
+[20:39:22.640] [Virtual Client 11-0] Train=750
+[20:39:22.641] [Virtual Client 12-0] Train=750
+[20:39:22.641] [Virtual Client 13-0] Train=750
+[20:39:22.642] [Virtual Client 14-0] Train=750
+[20:39:22.642] [Virtual Client 15-0] Train=750
+[20:39:22.642] [Virtual Client 16-0] Train=750
+[20:39:22.643] [Virtual Client 17-0] Train=750
+[20:39:22.643] [Virtual Client 18-0] Train=750
+[20:39:22.644] [Virtual Client 19-0] Train=750
+[20:39:22.648] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[20:39:22.648] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[20:39:22.648] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[20:39:22.648] =============== args ================
+[20:39:22.648] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='dp2rmsprop', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA', resume=False, gpu='0', seed=12, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=True, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=0.5, delta=0.01, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.1, dp2_interval=3, rmsprop_lr=3e-05, ada_vn=False, init_vn=False, ada_stable=False, ada_prog=False, gamma_da=0.1, class_weights=None, domain_adaptation=True, lambda_schedule='default', init_lambda=0.01, log_path='../../experiments/v1.0/log/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA')
+[20:39:26.323] Domain Adaptation: Sử dụng 20 domains (1 domain/client)
+[20:39:28.905] Using noise multiplier=0.5 and sigma on aggregation=0.25 to satisfy (245.5990192385698,0.01)-DP.
+[20:39:28.906] Using adaptive clipping.
+[20:39:28.906] Using prv accountant.
+[20:39:28.910] Using domain loss weight (gamma): 0.1
+[20:39:28.978] ============ Round 0, Local train epoch 0 ============
+[20:42:38.758] Avg Domain Loss: 2.9787
+[20:42:38.824]  Site-0         | Train Loss: 0.6445 | Train AUC: 0.6874  | Train Acc: 0.6345  | Train Sen: 0.6166  | Train Spe: 0.6529  | Train F1: 0.6310 
+[20:45:31.267] Avg Domain Loss: 2.9207
+[20:45:31.304]  Site-1         | Train Loss: 0.6304 | Train AUC: 0.7051  | Train Acc: 0.6535  | Train Sen: 0.5804  | Train Spe: 0.7263  | Train F1: 0.6256 
+[20:48:23.509] Avg Domain Loss: 3.0166
+[20:48:23.593]  Site-2         | Train Loss: 0.6657 | Train AUC: 0.6570  | Train Acc: 0.6386  | Train Sen: 0.5914  | Train Spe: 0.6868  | Train F1: 0.6232 
+[20:51:19.399] Avg Domain Loss: 2.8818
+[20:51:19.436]  Site-3         | Train Loss: 0.6290 | Train AUC: 0.7025  | Train Acc: 0.6549  | Train Sen: 0.5973  | Train Spe: 0.7116  | Train F1: 0.6319 
+[20:54:13.006] Avg Domain Loss: 3.0936
+[20:54:13.041]  Site-4         | Train Loss: 0.6158 | Train AUC: 0.7173  | Train Acc: 0.6793  | Train Sen: 0.5897  | Train Spe: 0.7610  | Train F1: 0.6369 
+[20:57:07.104] Avg Domain Loss: 3.0412
+[20:57:07.186]  Site-5         | Train Loss: 0.6318 | Train AUC: 0.7056  | Train Acc: 0.6413  | Train Sen: 0.5504  | Train Spe: 0.7224  | Train F1: 0.5913 
+[21:00:01.355] Avg Domain Loss: 2.9596
+[21:00:01.393]  Site-6         | Train Loss: 0.6117 | Train AUC: 0.7432  | Train Acc: 0.6902  | Train Sen: 0.6792  | Train Spe: 0.7014  | Train F1: 0.6885 
+[21:02:58.642] Avg Domain Loss: 2.9489
+[21:02:58.679]  Site-7         | Train Loss: 0.6369 | Train AUC: 0.6946  | Train Acc: 0.6223  | Train Sen: 0.6267  | Train Spe: 0.6177  | Train F1: 0.6283 
+[21:05:53.122] Avg Domain Loss: 2.8741
+[21:05:53.159]  Site-8         | Train Loss: 0.6198 | Train AUC: 0.7173  | Train Acc: 0.6671  | Train Sen: 0.5968  | Train Spe: 0.7390  | Train F1: 0.6444 
+[21:08:46.385] Avg Domain Loss: 3.0156
+[21:08:46.421]  Site-9         | Train Loss: 0.6569 | Train AUC: 0.6680  | Train Acc: 0.6291  | Train Sen: 0.6889  | Train Spe: 0.5559  | Train F1: 0.6715 
+[21:11:40.200] Avg Domain Loss: 3.0858
+[21:11:40.238]  Site-10        | Train Loss: 0.6454 | Train AUC: 0.6813  | Train Acc: 0.6304  | Train Sen: 0.5770  | Train Spe: 0.6807  | Train F1: 0.6023 
+[21:14:33.805] Avg Domain Loss: 2.9188
+[21:14:33.843]  Site-11        | Train Loss: 0.6481 | Train AUC: 0.6738  | Train Acc: 0.6264  | Train Sen: 0.5492  | Train Spe: 0.7027  | Train F1: 0.5938 
+[21:17:29.709] Avg Domain Loss: 3.2863
+[21:17:29.746]  Site-12        | Train Loss: 0.6150 | Train AUC: 0.7331  | Train Acc: 0.6766  | Train Sen: 0.6236  | Train Spe: 0.7285  | Train F1: 0.6561 
+[21:20:20.624] Avg Domain Loss: 2.9501
+[21:20:20.660]  Site-13        | Train Loss: 0.6295 | Train AUC: 0.7094  | Train Acc: 0.6495  | Train Sen: 0.6196  | Train Spe: 0.6793  | Train F1: 0.6387 
+[21:23:12.748] Avg Domain Loss: 3.1626
+[21:23:12.785]  Site-14        | Train Loss: 0.6401 | Train AUC: 0.6888  | Train Acc: 0.6413  | Train Sen: 0.5808  | Train Spe: 0.7008  | Train F1: 0.6163 
+[21:26:04.415] Avg Domain Loss: 2.8861
+[21:26:04.451]  Site-15        | Train Loss: 0.6645 | Train AUC: 0.6622  | Train Acc: 0.6196  | Train Sen: 0.5653  | Train Spe: 0.6759  | Train F1: 0.6023 
+[21:28:55.197] Avg Domain Loss: 2.9326
+[21:28:55.241]  Site-16        | Train Loss: 0.6176 | Train AUC: 0.7226  | Train Acc: 0.6671  | Train Sen: 0.6230  | Train Spe: 0.7147  | Train F1: 0.6602 
+[21:31:47.515] Avg Domain Loss: 3.1503
+[21:31:47.553]  Site-17        | Train Loss: 0.6570 | Train AUC: 0.6724  | Train Acc: 0.6454  | Train Sen: 0.5860  | Train Spe: 0.7060  | Train F1: 0.6255 
+[21:34:41.894] Avg Domain Loss: 3.0477
+[21:34:41.930]  Site-18        | Train Loss: 0.6441 | Train AUC: 0.7000  | Train Acc: 0.6399  | Train Sen: 0.6122  | Train Spe: 0.6667  | Train F1: 0.6252 
+[21:37:36.155] Avg Domain Loss: 2.9822
+[21:37:36.192]  Site-19        | Train Loss: 0.6348 | Train AUC: 0.7165  | Train Acc: 0.6753  | Train Sen: 0.5759  | Train Spe: 0.7649  | Train F1: 0.6271 
+[21:37:53.441] RuntimeError('element 0 of tensors does not require grad and does not have a grad_fn')
+[21:37:53.442] Stop training at round 0.
+[21:37:53.444]  Training completed...

@@ -1,0 +1,41 @@
+[11:45:54.716] Domain Adaptation enabled.
+[11:45:54.947] [Client 0] Train=750, Val=250, Test=250
+[11:45:54.947] [Client 1] Train=750, Val=250, Test=250
+[11:45:54.948] [Client 2] Train=750, Val=250, Test=250
+[11:45:54.948] [Client 3] Train=750, Val=250, Test=250
+[11:45:54.949] [Client 4] Train=750, Val=250, Test=250
+[11:45:54.949] [Client 5] Train=750, Val=250, Test=250
+[11:45:54.950] [Client 6] Train=750, Val=250, Test=250
+[11:45:54.950] [Client 7] Train=750, Val=250, Test=250
+[11:45:54.950] [Client 8] Train=750, Val=250, Test=250
+[11:45:54.951] [Client 9] Train=750, Val=250, Test=250
+[11:45:54.951] [Client 10] Train=750, Val=250, Test=250
+[11:45:54.952] [Client 11] Train=750, Val=250, Test=250
+[11:45:54.952] [Client 12] Train=750, Val=250, Test=250
+[11:45:54.952] [Client 13] Train=750, Val=250, Test=250
+[11:45:54.953] [Client 14] Train=750, Val=250, Test=250
+[11:45:54.953] [Client 15] Train=750, Val=250, Test=250
+[11:45:54.954] [Client 16] Train=750, Val=250, Test=250
+[11:45:54.955] [Client 17] Train=750, Val=250, Test=250
+[11:45:54.955] [Client 18] Train=750, Val=250, Test=250
+[11:45:54.956] [Client 19] Train=750, Val=250, Test=250
+[11:45:54.956] [Virtual Client 0-0] Train=750
+[11:45:54.957] [Virtual Client 1-0] Train=750
+[11:45:54.957] [Virtual Client 2-0] Train=750
+[11:45:54.958] [Virtual Client 3-0] Train=750
+[11:45:54.958] [Virtual Client 4-0] Train=750
+[11:45:54.958] [Virtual Client 5-0] Train=750
+[11:45:54.959] [Virtual Client 6-0] Train=750
+[11:45:54.959] [Virtual Client 7-0] Train=750
+[11:45:54.960] [Virtual Client 8-0] Train=750
+[11:45:54.960] [Virtual Client 9-0] Train=750
+[11:45:54.961] [Virtual Client 10-0] Train=750
+[11:45:54.961] [Virtual Client 11-0] Train=750
+[11:45:54.962] [Virtual Client 12-0] Train=750
+[11:45:54.962] [Virtual Client 13-0] Train=750
+[11:45:54.962] [Virtual Client 14-0] Train=750
+[11:45:54.963] [Virtual Client 15-0] Train=750
+[11:45:54.963] [Virtual Client 16-0] Train=750
+[11:45:54.964] [Virtual Client 17-0] Train=750
+[11:45:54.964] [Virtual Client 18-0] Train=750
+[11:45:54.965] [Virtual Client 19-0] Train=750

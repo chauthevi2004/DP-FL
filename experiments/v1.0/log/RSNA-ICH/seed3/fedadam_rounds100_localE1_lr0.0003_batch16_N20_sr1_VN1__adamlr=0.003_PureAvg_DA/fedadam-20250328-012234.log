@@ -1,0 +1,90 @@
+[01:22:34.777] Domain Adaptation enabled.
+[01:22:35.078] [Client 0] Train=750, Val=250, Test=250
+[01:22:35.079] [Client 1] Train=750, Val=250, Test=250
+[01:22:35.079] [Client 2] Train=750, Val=250, Test=250
+[01:22:35.080] [Client 3] Train=750, Val=250, Test=250
+[01:22:35.080] [Client 4] Train=750, Val=250, Test=250
+[01:22:35.081] [Client 5] Train=750, Val=250, Test=250
+[01:22:35.081] [Client 6] Train=750, Val=250, Test=250
+[01:22:35.082] [Client 7] Train=750, Val=250, Test=250
+[01:22:35.083] [Client 8] Train=750, Val=250, Test=250
+[01:22:35.084] [Client 9] Train=750, Val=250, Test=250
+[01:22:35.086] [Client 10] Train=750, Val=250, Test=250
+[01:22:35.086] [Client 11] Train=750, Val=250, Test=250
+[01:22:35.087] [Client 12] Train=750, Val=250, Test=250
+[01:22:35.088] [Client 13] Train=750, Val=250, Test=250
+[01:22:35.088] [Client 14] Train=750, Val=250, Test=250
+[01:22:35.089] [Client 15] Train=750, Val=250, Test=250
+[01:22:35.090] [Client 16] Train=750, Val=250, Test=250
+[01:22:35.090] [Client 17] Train=750, Val=250, Test=250
+[01:22:35.092] [Client 18] Train=750, Val=250, Test=250
+[01:22:35.093] [Client 19] Train=750, Val=250, Test=250
+[01:22:35.094] [Virtual Client 0-0] Train=750
+[01:22:35.095] [Virtual Client 1-0] Train=750
+[01:22:35.095] [Virtual Client 2-0] Train=750
+[01:22:35.096] [Virtual Client 3-0] Train=750
+[01:22:35.096] [Virtual Client 4-0] Train=750
+[01:22:35.097] [Virtual Client 5-0] Train=750
+[01:22:35.097] [Virtual Client 6-0] Train=750
+[01:22:35.098] [Virtual Client 7-0] Train=750
+[01:22:35.098] [Virtual Client 8-0] Train=750
+[01:22:35.099] [Virtual Client 9-0] Train=750
+[01:22:35.099] [Virtual Client 10-0] Train=750
+[01:22:35.100] [Virtual Client 11-0] Train=750
+[01:22:35.100] [Virtual Client 12-0] Train=750
+[01:22:35.101] [Virtual Client 13-0] Train=750
+[01:22:35.101] [Virtual Client 14-0] Train=750
+[01:22:35.102] [Virtual Client 15-0] Train=750
+[01:22:35.102] [Virtual Client 16-0] Train=750
+[01:22:35.103] [Virtual Client 17-0] Train=750
+[01:22:35.103] [Virtual Client 18-0] Train=750
+[01:22:35.104] [Virtual Client 19-0] Train=750
+[01:22:35.109] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[01:22:35.109] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[01:22:35.109] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[01:22:35.109] =============== args ================
+[01:22:35.109] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='fedadam', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed3/fedadam_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1__adamlr=0.003_PureAvg_DA', resume=False, gpu='0', seed=3, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=False, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=None, delta=0.001, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.003, dp2_interval=3, rmsprop_lr=1, ada_vn=False, init_vn=False, ada_stable=False, ada_prog=False, domain_adaptation=True, log_path='../../experiments/v1.0/log/RSNA-ICH/seed3/fedadam_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1__adamlr=0.003_PureAvg_DA')
+[01:22:38.761] ============ Round 0, Local train epoch 0 ============
+[01:26:39.476]  Site-0         | Train Loss: 0.6377 | Train AUC: 0.6877  | Train Acc: 0.6359  | Train Sen: 0.5602  | Train Spe: 0.7071  | Train F1: 0.5988 
+[01:30:26.297]  Site-1         | Train Loss: 0.6076 | Train AUC: 0.7400  | Train Acc: 0.6902  | Train Sen: 0.6754  | Train Spe: 0.7062  | Train F1: 0.6935 
+[01:34:14.439]  Site-2         | Train Loss: 0.6439 | Train AUC: 0.6748  | Train Acc: 0.6019  | Train Sen: 0.5109  | Train Spe: 0.6929  | Train F1: 0.5620 
+[01:38:19.503]  Site-3         | Train Loss: 0.6057 | Train AUC: 0.7384  | Train Acc: 0.7120  | Train Sen: 0.5906  | Train Spe: 0.8173  | Train F1: 0.6558 
+[01:42:33.816]  Site-4         | Train Loss: 0.6620 | Train AUC: 0.6597  | Train Acc: 0.6196  | Train Sen: 0.5424  | Train Spe: 0.6911  | Train F1: 0.5783 
+[01:46:52.227]  Site-5         | Train Loss: 0.6304 | Train AUC: 0.7017  | Train Acc: 0.6399  | Train Sen: 0.5686  | Train Spe: 0.7071  | Train F1: 0.6051 
+[01:50:28.204]  Site-6         | Train Loss: 0.6439 | Train AUC: 0.6881  | Train Acc: 0.6372  | Train Sen: 0.5956  | Train Spe: 0.6784  | Train F1: 0.6202 
+[01:53:51.428]  Site-7         | Train Loss: 0.6231 | Train AUC: 0.7180  | Train Acc: 0.6535  | Train Sen: 0.5873  | Train Spe: 0.7173  | Train F1: 0.6244 
+[01:57:11.982]  Site-8         | Train Loss: 0.6528 | Train AUC: 0.6852  | Train Acc: 0.6508  | Train Sen: 0.6070  | Train Spe: 0.6948  | Train F1: 0.6355 
+[02:00:29.974]  Site-9         | Train Loss: 0.6142 | Train AUC: 0.7243  | Train Acc: 0.6576  | Train Sen: 0.6310  | Train Spe: 0.6851  | Train F1: 0.6519 
+[02:03:48.972]  Site-10        | Train Loss: 0.6481 | Train AUC: 0.6919  | Train Acc: 0.6399  | Train Sen: 0.6510  | Train Spe: 0.6278  | Train F1: 0.6536 
+[02:07:10.439]  Site-11        | Train Loss: 0.6331 | Train AUC: 0.6903  | Train Acc: 0.6155  | Train Sen: 0.6777  | Train Spe: 0.5449  | Train F1: 0.6519 
+[02:10:25.619]  Site-12        | Train Loss: 0.6582 | Train AUC: 0.6844  | Train Acc: 0.6304  | Train Sen: 0.6476  | Train Spe: 0.6096  | Train F1: 0.6574 
+[02:13:54.335]  Site-13        | Train Loss: 0.6394 | Train AUC: 0.7195  | Train Acc: 0.6834  | Train Sen: 0.6393  | Train Spe: 0.7270  | Train F1: 0.6676 
+[02:17:23.365]  Site-14        | Train Loss: 0.6334 | Train AUC: 0.7067  | Train Acc: 0.6535  | Train Sen: 0.5714  | Train Spe: 0.7309  | Train F1: 0.6154 
+[02:20:37.619]  Site-15        | Train Loss: 0.6042 | Train AUC: 0.7413  | Train Acc: 0.6889  | Train Sen: 0.6503  | Train Spe: 0.7314  | Train F1: 0.6867 
+[02:23:52.313]  Site-16        | Train Loss: 0.6353 | Train AUC: 0.7088  | Train Acc: 0.6630  | Train Sen: 0.6243  | Train Spe: 0.7005  | Train F1: 0.6457 
+[02:27:11.863]  Site-17        | Train Loss: 0.6327 | Train AUC: 0.7076  | Train Acc: 0.6522  | Train Sen: 0.6515  | Train Spe: 0.6529  | Train F1: 0.6550 
+[02:30:25.424]  Site-18        | Train Loss: 0.6085 | Train AUC: 0.7403  | Train Acc: 0.6902  | Train Sen: 0.6118  | Train Spe: 0.7576  | Train F1: 0.6460 
+[02:33:42.544]  Site-19        | Train Loss: 0.6137 | Train AUC: 0.7246  | Train Acc: 0.6753  | Train Sen: 0.5922  | Train Spe: 0.7540  | Train F1: 0.6395 
+[02:34:09.868]  Site-0         | Val Loss: 0.6174 | Val AUC: 0.7188 | Val Acc: 0.6400 | Val Sen: 0.7132 | Val Spe: 0.5526 | Val F1: 0.6831
+[02:34:35.410]  Site-1         | Val Loss: 0.5886 | Val AUC: 0.7790 | Val Acc: 0.6880 | Val Sen: 0.7917 | Val Spe: 0.5923 | Val F1: 0.7090
+[02:35:00.676]  Site-2         | Val Loss: 0.5670 | Val AUC: 0.7994 | Val Acc: 0.6880 | Val Sen: 0.7833 | Val Spe: 0.6000 | Val F1: 0.7068
+[02:35:26.168]  Site-3         | Val Loss: 0.6188 | Val AUC: 0.7438 | Val Acc: 0.7080 | Val Sen: 0.8130 | Val Spe: 0.6063 | Val F1: 0.7326
+[02:35:50.974]  Site-4         | Val Loss: 0.6386 | Val AUC: 0.7014 | Val Acc: 0.6560 | Val Sen: 0.7185 | Val Spe: 0.5826 | Val F1: 0.6929
+[02:36:15.349]  Site-5         | Val Loss: 0.5660 | Val AUC: 0.7833 | Val Acc: 0.6960 | Val Sen: 0.7656 | Val Spe: 0.6230 | Val F1: 0.7206
+[02:36:41.184]  Site-6         | Val Loss: 0.5906 | Val AUC: 0.7778 | Val Acc: 0.7280 | Val Sen: 0.7845 | Val Spe: 0.6791 | Val F1: 0.7280
+[02:37:06.193]  Site-7         | Val Loss: 0.6420 | Val AUC: 0.7129 | Val Acc: 0.6160 | Val Sen: 0.7398 | Val Spe: 0.4961 | Val F1: 0.6547
+[02:37:31.741]  Site-8         | Val Loss: 0.6213 | Val AUC: 0.7426 | Val Acc: 0.6720 | Val Sen: 0.7373 | Val Spe: 0.6136 | Val F1: 0.6797
+[02:37:58.052]  Site-9         | Val Loss: 0.5917 | Val AUC: 0.7656 | Val Acc: 0.6520 | Val Sen: 0.7480 | Val Spe: 0.5591 | Val F1: 0.6790
+[02:38:23.692]  Site-10        | Val Loss: 0.5976 | Val AUC: 0.7488 | Val Acc: 0.6680 | Val Sen: 0.7177 | Val Spe: 0.6190 | Val F1: 0.6820
+[02:38:49.762]  Site-11        | Val Loss: 0.6199 | Val AUC: 0.7350 | Val Acc: 0.6560 | Val Sen: 0.7438 | Val Spe: 0.5736 | Val F1: 0.6767
+[02:39:15.573]  Site-12        | Val Loss: 0.5926 | Val AUC: 0.7715 | Val Acc: 0.6680 | Val Sen: 0.7797 | Val Spe: 0.5682 | Val F1: 0.6891
+[02:39:40.737]  Site-13        | Val Loss: 0.6361 | Val AUC: 0.7283 | Val Acc: 0.6840 | Val Sen: 0.7795 | Val Spe: 0.5854 | Val F1: 0.7148
+[02:40:07.202]  Site-14        | Val Loss: 0.6065 | Val AUC: 0.7594 | Val Acc: 0.6880 | Val Sen: 0.7750 | Val Spe: 0.6077 | Val F1: 0.7045
+[02:40:33.176]  Site-15        | Val Loss: 0.5750 | Val AUC: 0.7729 | Val Acc: 0.6800 | Val Sen: 0.7634 | Val Spe: 0.5882 | Val F1: 0.7143
+[02:40:58.693]  Site-16        | Val Loss: 0.6160 | Val AUC: 0.7310 | Val Acc: 0.6640 | Val Sen: 0.7744 | Val Spe: 0.5385 | Val F1: 0.7103
+[02:41:24.606]  Site-17        | Val Loss: 0.5986 | Val AUC: 0.7486 | Val Acc: 0.6640 | Val Sen: 0.7381 | Val Spe: 0.5887 | Val F1: 0.6889
+[02:41:49.905]  Site-18        | Val Loss: 0.6052 | Val AUC: 0.7699 | Val Acc: 0.6840 | Val Sen: 0.7805 | Val Spe: 0.5906 | Val F1: 0.7085
+[02:42:15.293]  Site-19        | Val Loss: 0.6095 | Val AUC: 0.7319 | Val Acc: 0.6800 | Val Sen: 0.7313 | Val Spe: 0.6207 | Val F1: 0.7101
+[02:42:15.295]  Site-Average | Val Loss: 0.6050 | AUC: 0.7511 | Acc: 0.6740 | Sen: 0.7589 | Spe: 0.5893 | F1: 0.6993
+[02:42:15.296]  Best Epoch:0 | Avg Val Acc: 0.6740
+[02:42:15.301]  Saving the local and server checkpoint to ../../experiments/v1.0/checkpoint/RSNA-ICH/seed3/fedadam_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1__adamlr=0.003_PureAvg_DA/model_best_0...

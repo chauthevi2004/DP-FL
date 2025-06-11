@@ -1,0 +1,76 @@
+[12:04:04.315] [Client 0] Train=750, Val=250, Test=250
+[12:04:04.315] [Client 1] Train=750, Val=250, Test=250
+[12:04:04.316] [Client 2] Train=750, Val=250, Test=250
+[12:04:04.316] [Client 3] Train=750, Val=250, Test=250
+[12:04:04.317] [Client 4] Train=750, Val=250, Test=250
+[12:04:04.317] [Client 5] Train=750, Val=250, Test=250
+[12:04:04.318] [Client 6] Train=750, Val=250, Test=250
+[12:04:04.319] [Client 7] Train=750, Val=250, Test=250
+[12:04:04.319] [Client 8] Train=750, Val=250, Test=250
+[12:04:04.319] [Client 9] Train=750, Val=250, Test=250
+[12:04:04.320] [Client 10] Train=750, Val=250, Test=250
+[12:04:04.320] [Client 11] Train=750, Val=250, Test=250
+[12:04:04.321] [Client 12] Train=750, Val=250, Test=250
+[12:04:04.321] [Client 13] Train=750, Val=250, Test=250
+[12:04:04.322] [Client 14] Train=750, Val=250, Test=250
+[12:04:04.323] [Client 15] Train=750, Val=250, Test=250
+[12:04:04.324] [Client 16] Train=750, Val=250, Test=250
+[12:04:04.324] [Client 17] Train=750, Val=250, Test=250
+[12:04:04.325] [Client 18] Train=750, Val=250, Test=250
+[12:04:04.325] [Client 19] Train=750, Val=250, Test=250
+[12:04:04.326] [Virtual Client 0-0] Train=750
+[12:04:04.326] [Virtual Client 1-0] Train=750
+[12:04:04.327] [Virtual Client 2-0] Train=750
+[12:04:04.327] [Virtual Client 3-0] Train=750
+[12:04:04.328] [Virtual Client 4-0] Train=750
+[12:04:04.328] [Virtual Client 5-0] Train=750
+[12:04:04.329] [Virtual Client 6-0] Train=750
+[12:04:04.330] [Virtual Client 7-0] Train=750
+[12:04:04.331] [Virtual Client 8-0] Train=750
+[12:04:04.332] [Virtual Client 9-0] Train=750
+[12:04:04.332] [Virtual Client 10-0] Train=750
+[12:04:04.333] [Virtual Client 11-0] Train=750
+[12:04:04.333] [Virtual Client 12-0] Train=750
+[12:04:04.334] [Virtual Client 13-0] Train=750
+[12:04:04.335] [Virtual Client 14-0] Train=750
+[12:04:04.335] [Virtual Client 15-0] Train=750
+[12:04:04.336] [Virtual Client 16-0] Train=750
+[12:04:04.336] [Virtual Client 17-0] Train=750
+[12:04:04.337] [Virtual Client 18-0] Train=750
+[12:04:04.337] [Virtual Client 19-0] Train=750
+[12:04:04.345] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[12:04:04.345] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[12:04:04.345] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[12:04:04.345] =============== args ================
+[12:04:04.346] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='dp2rmsprop', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.05_DA', resume=False, gpu='0', seed=12, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=True, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=0.5, delta=0.01, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.1, dp2_interval=3, rmsprop_lr=3e-05, ada_vn=False, init_vn=False, ada_stable=False, ada_prog=False, gamma_da=0.05, class_weights=None, domain_adaptation=True, init_lambda=0.005, lambda_schedule='linear', domain_lr=0.0001, log_path='../../experiments/v1.0/log/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.05_DA')
+[12:04:13.177] Using noise multiplier=0.5 and sigma on aggregation=0.25 to satisfy (245.5990192385698,0.01)-DP.
+[12:04:13.179] Using adaptive clipping.
+[12:04:13.179] Using prv accountant.
+[12:04:13.184] Using domain loss weight (gamma): 0.05
+[12:04:13.269] ============ Round 0, Local train epoch 0 ============
+[12:10:01.386]  Site-0         | Train Loss: 0.6633 | Train AUC: 0.6567  | Train Acc: 0.6033  | Train Sen: 0.5588  | Train Spe: 0.6492  | Train F1: 0.5887 
+[12:15:46.917]  Site-1         | Train Loss: 0.6399 | Train AUC: 0.6881  | Train Acc: 0.6440  | Train Sen: 0.6274  | Train Spe: 0.6604  | Train F1: 0.6361 
+[12:21:32.218]  Site-2         | Train Loss: 0.6586 | Train AUC: 0.6631  | Train Acc: 0.6440  | Train Sen: 0.6257  | Train Spe: 0.6630  | Train F1: 0.6411 
+[12:27:16.273]  Site-3         | Train Loss: 0.6389 | Train AUC: 0.6910  | Train Acc: 0.6603  | Train Sen: 0.6181  | Train Spe: 0.7016  | Train F1: 0.6429 
+[12:33:09.163]  Site-4         | Train Loss: 0.6136 | Train AUC: 0.7235  | Train Acc: 0.6766  | Train Sen: 0.5520  | Train Spe: 0.7872  | Train F1: 0.6161 
+[12:38:49.388]  Site-5         | Train Loss: 0.6367 | Train AUC: 0.6960  | Train Acc: 0.6508  | Train Sen: 0.5610  | Train Spe: 0.7296  | Train F1: 0.6003 
+[12:44:36.023]  Site-6         | Train Loss: 0.6201 | Train AUC: 0.7254  | Train Acc: 0.6685  | Train Sen: 0.6341  | Train Spe: 0.7030  | Train F1: 0.6573 
+[12:50:30.530]  Site-7         | Train Loss: 0.6329 | Train AUC: 0.7030  | Train Acc: 0.6467  | Train Sen: 0.6480  | Train Spe: 0.6454  | Train F1: 0.6515 
+[12:56:29.569]  Site-8         | Train Loss: 0.6333 | Train AUC: 0.6986  | Train Acc: 0.6386  | Train Sen: 0.6210  | Train Spe: 0.6566  | Train F1: 0.6346 
+[13:02:20.028]  Site-9         | Train Loss: 0.6340 | Train AUC: 0.6912  | Train Acc: 0.6318  | Train Sen: 0.7408  | Train Spe: 0.4954  | Train F1: 0.6910 
+[13:08:01.791]  Site-10        | Train Loss: 0.6435 | Train AUC: 0.6780  | Train Acc: 0.6291  | Train Sen: 0.5265  | Train Spe: 0.7268  | Train F1: 0.5806 
+[13:13:49.165]  Site-11        | Train Loss: 0.6326 | Train AUC: 0.6922  | Train Acc: 0.6386  | Train Sen: 0.5507  | Train Spe: 0.7251  | Train F1: 0.6018 
+[13:19:35.160]  Site-12        | Train Loss: 0.6195 | Train AUC: 0.7236  | Train Acc: 0.6522  | Train Sen: 0.5935  | Train Spe: 0.7112  | Train F1: 0.6311 
+[13:25:36.599]  Site-13        | Train Loss: 0.6391 | Train AUC: 0.7079  | Train Acc: 0.6644  | Train Sen: 0.6287  | Train Spe: 0.7003  | Train F1: 0.6526 
+[13:31:35.811]  Site-14        | Train Loss: 0.6231 | Train AUC: 0.7073  | Train Acc: 0.6508  | Train Sen: 0.5863  | Train Spe: 0.7143  | Train F1: 0.6248 
+[13:37:24.246]  Site-15        | Train Loss: 0.6332 | Train AUC: 0.7038  | Train Acc: 0.6698  | Train Sen: 0.6410  | Train Spe: 0.7000  | Train F1: 0.6648 
+[13:43:04.714]  Site-16        | Train Loss: 0.6174 | Train AUC: 0.7277  | Train Acc: 0.6834  | Train Sen: 0.6352  | Train Spe: 0.7352  | Train F1: 0.6750 
+[13:48:46.242]  Site-17        | Train Loss: 0.6575 | Train AUC: 0.6603  | Train Acc: 0.6196  | Train Sen: 0.5882  | Train Spe: 0.6519  | Train F1: 0.6111 
+[13:54:25.716]  Site-18        | Train Loss: 0.6373 | Train AUC: 0.7091  | Train Acc: 0.6562  | Train Sen: 0.5945  | Train Spe: 0.7170  | Train F1: 0.6317 
+[14:00:04.629]  Site-19        | Train Loss: 0.6036 | Train AUC: 0.7400  | Train Acc: 0.6889  | Train Sen: 0.6246  | Train Spe: 0.7468  | Train F1: 0.6556 
+[14:00:07.581] Update sigma on aggregation=0.13738183975219725; clip bound update=5.495273590087891
+[14:00:10.382] RuntimeError("result type Float can't be cast to the desired output type Long")
+[14:00:10.388] Stop training at round 0.
+[14:00:10.391]  Training completed...
+
+# chưa có batch norm

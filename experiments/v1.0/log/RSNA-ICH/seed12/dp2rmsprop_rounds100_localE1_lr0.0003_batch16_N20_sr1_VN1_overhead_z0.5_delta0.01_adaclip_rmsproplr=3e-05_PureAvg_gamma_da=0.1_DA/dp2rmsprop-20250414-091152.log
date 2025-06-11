@@ -1,0 +1,93 @@
+[09:11:52.528] [Client 0] Train=750, Val=250, Test=250
+[09:11:52.528] [Client 1] Train=750, Val=250, Test=250
+[09:11:52.529] [Client 2] Train=750, Val=250, Test=250
+[09:11:52.529] [Client 3] Train=750, Val=250, Test=250
+[09:11:52.530] [Client 4] Train=750, Val=250, Test=250
+[09:11:52.530] [Client 5] Train=750, Val=250, Test=250
+[09:11:52.531] [Client 6] Train=750, Val=250, Test=250
+[09:11:52.531] [Client 7] Train=750, Val=250, Test=250
+[09:11:52.531] [Client 8] Train=750, Val=250, Test=250
+[09:11:52.532] [Client 9] Train=750, Val=250, Test=250
+[09:11:52.532] [Client 10] Train=750, Val=250, Test=250
+[09:11:52.533] [Client 11] Train=750, Val=250, Test=250
+[09:11:52.533] [Client 12] Train=750, Val=250, Test=250
+[09:11:52.534] [Client 13] Train=750, Val=250, Test=250
+[09:11:52.534] [Client 14] Train=750, Val=250, Test=250
+[09:11:52.534] [Client 15] Train=750, Val=250, Test=250
+[09:11:52.535] [Client 16] Train=750, Val=250, Test=250
+[09:11:52.535] [Client 17] Train=750, Val=250, Test=250
+[09:11:52.536] [Client 18] Train=750, Val=250, Test=250
+[09:11:52.536] [Client 19] Train=750, Val=250, Test=250
+[09:11:52.537] [Virtual Client 0-0] Train=750
+[09:11:52.537] [Virtual Client 1-0] Train=750
+[09:11:52.537] [Virtual Client 2-0] Train=750
+[09:11:52.538] [Virtual Client 3-0] Train=750
+[09:11:52.538] [Virtual Client 4-0] Train=750
+[09:11:52.539] [Virtual Client 5-0] Train=750
+[09:11:52.539] [Virtual Client 6-0] Train=750
+[09:11:52.540] [Virtual Client 7-0] Train=750
+[09:11:52.540] [Virtual Client 8-0] Train=750
+[09:11:52.541] [Virtual Client 9-0] Train=750
+[09:11:52.541] [Virtual Client 10-0] Train=750
+[09:11:52.541] [Virtual Client 11-0] Train=750
+[09:11:52.542] [Virtual Client 12-0] Train=750
+[09:11:52.542] [Virtual Client 13-0] Train=750
+[09:11:52.543] [Virtual Client 14-0] Train=750
+[09:11:52.543] [Virtual Client 15-0] Train=750
+[09:11:52.543] [Virtual Client 16-0] Train=750
+[09:11:52.544] [Virtual Client 17-0] Train=750
+[09:11:52.544] [Virtual Client 18-0] Train=750
+[09:11:52.545] [Virtual Client 19-0] Train=750
+[09:11:52.550] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[09:11:52.551] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[09:11:52.551] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[09:11:52.551] =============== args ================
+[09:11:52.551] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='dp2rmsprop', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA', resume=False, gpu='0', seed=12, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=True, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=0.5, delta=0.01, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.1, dp2_interval=3, rmsprop_lr=3e-05, ada_vn=False, init_vn=False, ada_stable=False, ada_prog=False, gamma_da=0.1, class_weights=None, domain_adaptation=True, lambda_schedule='default', init_lambda=0.01, log_path='../../experiments/v1.0/log/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA')
+[09:11:58.787] Using noise multiplier=0.5 and sigma on aggregation=0.25 to satisfy (245.5990192385698,0.01)-DP.
+[09:11:58.787] Using adaptive clipping.
+[09:11:58.787] Using prv accountant.
+[09:11:58.791] Using domain loss weight (gamma): 0.1
+[09:11:58.862] ============ Round 0, Local train epoch 0 ============
+[09:17:42.219] Avg Domain Loss: 2.9784
+[09:17:42.291]  Site-0         | Train Loss: 0.6666 | Train AUC: 0.6584  | Train Acc: 0.6209  | Train Sen: 0.5722  | Train Spe: 0.6713  | Train F1: 0.6054 
+[09:23:03.937] Avg Domain Loss: 2.9098
+[09:23:03.999]  Site-1         | Train Loss: 0.6331 | Train AUC: 0.7055  | Train Acc: 0.6549  | Train Sen: 0.6630  | Train Spe: 0.6469  | Train F1: 0.6558 
+[09:28:37.212] Avg Domain Loss: 3.0141
+[09:28:37.274]  Site-2         | Train Loss: 0.6437 | Train AUC: 0.6800  | Train Acc: 0.6332  | Train Sen: 0.6032  | Train Spe: 0.6639  | Train F1: 0.6250 
+[09:34:08.517] Avg Domain Loss: 2.8769
+[09:34:08.586]  Site-3         | Train Loss: 0.6342 | Train AUC: 0.6973  | Train Acc: 0.6440  | Train Sen: 0.5824  | Train Spe: 0.7043  | Train F1: 0.6181 
+[09:39:41.808] Avg Domain Loss: 3.0880
+[09:39:41.871]  Site-4         | Train Loss: 0.6204 | Train AUC: 0.7139  | Train Acc: 0.6780  | Train Sen: 0.5514  | Train Spe: 0.7927  | Train F1: 0.6196 
+[09:45:16.597] Avg Domain Loss: 3.0424
+[09:45:16.662]  Site-5         | Train Loss: 0.6367 | Train AUC: 0.6987  | Train Acc: 0.6372  | Train Sen: 0.5601  | Train Spe: 0.7038  | Train F1: 0.5886 
+[09:50:56.165] Avg Domain Loss: 2.9481
+[09:50:56.245]  Site-6         | Train Loss: 0.6234 | Train AUC: 0.7334  | Train Acc: 0.6821  | Train Sen: 0.6432  | Train Spe: 0.7213  | Train F1: 0.6704 
+[09:56:30.780] Avg Domain Loss: 2.9357
+[09:56:30.850]  Site-7         | Train Loss: 0.6441 | Train AUC: 0.6917  | Train Acc: 0.6440  | Train Sen: 0.6223  | Train Spe: 0.6667  | Train F1: 0.6411 
+[10:02:03.449] Avg Domain Loss: 2.8678
+[10:02:03.524]  Site-8         | Train Loss: 0.6173 | Train AUC: 0.7149  | Train Acc: 0.6780  | Train Sen: 0.6005  | Train Spe: 0.7576  | Train F1: 0.6540 
+[10:07:42.103] Avg Domain Loss: 3.0123
+[10:07:42.173]  Site-9         | Train Loss: 0.6406 | Train AUC: 0.6915  | Train Acc: 0.6440  | Train Sen: 0.7104  | Train Spe: 0.5633  | Train F1: 0.6866 
+[10:13:27.227] Avg Domain Loss: 3.0785
+[10:13:27.293]  Site-10        | Train Loss: 0.6452 | Train AUC: 0.6871  | Train Acc: 0.6440  | Train Sen: 0.6000  | Train Spe: 0.6862  | Train F1: 0.6225 
+[10:19:04.489] Avg Domain Loss: 2.9100
+[10:19:04.546]  Site-11        | Train Loss: 0.6452 | Train AUC: 0.6820  | Train Acc: 0.6535  | Train Sen: 0.5331  | Train Spe: 0.7701  | Train F1: 0.6022 
+[10:24:47.048] Avg Domain Loss: 3.2828
+[10:24:47.120]  Site-12        | Train Loss: 0.6343 | Train AUC: 0.7060  | Train Acc: 0.6454  | Train Sen: 0.6137  | Train Spe: 0.6765  | Train F1: 0.6319 
+[10:30:35.211] Avg Domain Loss: 2.9496
+[10:30:35.293]  Site-13        | Train Loss: 0.6352 | Train AUC: 0.7121  | Train Acc: 0.6549  | Train Sen: 0.6243  | Train Spe: 0.6858  | Train F1: 0.6453 
+[10:36:29.157] Avg Domain Loss: 3.1512
+[10:36:29.233]  Site-14        | Train Loss: 0.6239 | Train AUC: 0.7107  | Train Acc: 0.6535  | Train Sen: 0.5644  | Train Spe: 0.7412  | Train F1: 0.6177 
+[10:42:28.207] Avg Domain Loss: 2.8764
+[10:42:28.281]  Site-15        | Train Loss: 0.6349 | Train AUC: 0.6940  | Train Acc: 0.6454  | Train Sen: 0.6114  | Train Spe: 0.6793  | Train F1: 0.6329 
+[10:48:35.516] Avg Domain Loss: 2.9358
+[10:48:35.597]  Site-16        | Train Loss: 0.6137 | Train AUC: 0.7211  | Train Acc: 0.6726  | Train Sen: 0.6132  | Train Spe: 0.7360  | Train F1: 0.6591 
+[10:54:44.050] Avg Domain Loss: 3.1490
+[10:54:44.143]  Site-17        | Train Loss: 0.6551 | Train AUC: 0.6871  | Train Acc: 0.6399  | Train Sen: 0.5612  | Train Spe: 0.7222  | Train F1: 0.6143 
+[11:00:52.794] Avg Domain Loss: 3.0444
+[11:00:52.871]  Site-18        | Train Loss: 0.6279 | Train AUC: 0.7156  | Train Acc: 0.6658  | Train Sen: 0.6093  | Train Spe: 0.7216  | Train F1: 0.6445 
+[11:07:51.675] Avg Domain Loss: 2.9760
+[11:07:51.746]  Site-19        | Train Loss: 0.6276 | Train AUC: 0.7112  | Train Acc: 0.6685  | Train Sen: 0.5636  | Train Spe: 0.7615  | Train F1: 0.6151 
+[11:08:22.676] RuntimeError('mat1 and mat2 shapes cannot be multiplied (15073280x1 and 1024x128)')
+[11:08:22.677] Stop training at round 0.
+[11:08:22.678]  Training completed...

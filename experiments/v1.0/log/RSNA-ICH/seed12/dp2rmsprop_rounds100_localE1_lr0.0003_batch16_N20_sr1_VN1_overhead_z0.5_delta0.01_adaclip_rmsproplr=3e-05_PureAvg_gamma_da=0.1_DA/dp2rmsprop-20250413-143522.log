@@ -1,0 +1,51 @@
+[14:35:23.046] [Client 0] Train=750, Val=250, Test=250
+[14:35:23.047] [Client 1] Train=750, Val=250, Test=250
+[14:35:23.048] [Client 2] Train=750, Val=250, Test=250
+[14:35:23.049] [Client 3] Train=750, Val=250, Test=250
+[14:35:23.049] [Client 4] Train=750, Val=250, Test=250
+[14:35:23.050] [Client 5] Train=750, Val=250, Test=250
+[14:35:23.051] [Client 6] Train=750, Val=250, Test=250
+[14:35:23.052] [Client 7] Train=750, Val=250, Test=250
+[14:35:23.052] [Client 8] Train=750, Val=250, Test=250
+[14:35:23.053] [Client 9] Train=750, Val=250, Test=250
+[14:35:23.054] [Client 10] Train=750, Val=250, Test=250
+[14:35:23.054] [Client 11] Train=750, Val=250, Test=250
+[14:35:23.055] [Client 12] Train=750, Val=250, Test=250
+[14:35:23.056] [Client 13] Train=750, Val=250, Test=250
+[14:35:23.056] [Client 14] Train=750, Val=250, Test=250
+[14:35:23.057] [Client 15] Train=750, Val=250, Test=250
+[14:35:23.057] [Client 16] Train=750, Val=250, Test=250
+[14:35:23.058] [Client 17] Train=750, Val=250, Test=250
+[14:35:23.059] [Client 18] Train=750, Val=250, Test=250
+[14:35:23.059] [Client 19] Train=750, Val=250, Test=250
+[14:35:23.060] [Virtual Client 0-0] Train=750
+[14:35:23.060] [Virtual Client 1-0] Train=750
+[14:35:23.061] [Virtual Client 2-0] Train=750
+[14:35:23.061] [Virtual Client 3-0] Train=750
+[14:35:23.062] [Virtual Client 4-0] Train=750
+[14:35:23.062] [Virtual Client 5-0] Train=750
+[14:35:23.063] [Virtual Client 6-0] Train=750
+[14:35:23.063] [Virtual Client 7-0] Train=750
+[14:35:23.063] [Virtual Client 8-0] Train=750
+[14:35:23.064] [Virtual Client 9-0] Train=750
+[14:35:23.064] [Virtual Client 10-0] Train=750
+[14:35:23.065] [Virtual Client 11-0] Train=750
+[14:35:23.066] [Virtual Client 12-0] Train=750
+[14:35:23.067] [Virtual Client 13-0] Train=750
+[14:35:23.067] [Virtual Client 14-0] Train=750
+[14:35:23.068] [Virtual Client 15-0] Train=750
+[14:35:23.068] [Virtual Client 16-0] Train=750
+[14:35:23.069] [Virtual Client 17-0] Train=750
+[14:35:23.069] [Virtual Client 18-0] Train=750
+[14:35:23.069] [Virtual Client 19-0] Train=750
+[14:35:23.075] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[14:35:23.075] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[14:35:23.075] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[14:35:23.075] =============== args ================
+[14:35:23.075] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='dp2rmsprop', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA', resume=False, gpu='0', seed=12, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=True, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=0.5, delta=0.01, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.1, dp2_interval=3, rmsprop_lr=3e-05, ada_vn=False, init_vn=False, ada_stable=False, ada_prog=False, gamma_da=0.1, class_weights=None, domain_adaptation=True, log_path='../../experiments/v1.0/log/RSNA-ICH/seed12/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z0.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_gamma_da=0.1_DA')
+[14:35:31.654] Using noise multiplier=0.5 and sigma on aggregation=0.25 to satisfy (245.5990192385698,0.01)-DP.
+[14:35:31.655] Using adaptive clipping.
+[14:35:31.656] Using prv accountant.
+[14:35:31.663] Using domain loss weight (gamma): 0.1
+[14:35:31.764] ============ Round 0, Local train epoch 0 ============
+[14:41:47.782]  Site-0         | Train Loss: 0.6450 | Train AUC: 0.6871  | Train Acc: 0.6291  | Train Sen: 0.5942  | Train Spe: 0.6657  | Train F1: 0.6214 

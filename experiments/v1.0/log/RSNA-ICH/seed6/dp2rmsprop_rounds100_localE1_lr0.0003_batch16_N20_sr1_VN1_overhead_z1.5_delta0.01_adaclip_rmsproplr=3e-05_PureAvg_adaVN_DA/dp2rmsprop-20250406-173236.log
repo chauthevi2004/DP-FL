@@ -1,0 +1,49 @@
+[17:32:36.886] [Client 0] Train=750, Val=250, Test=250
+[17:32:36.887] [Client 1] Train=750, Val=250, Test=250
+[17:32:36.887] [Client 2] Train=750, Val=250, Test=250
+[17:32:36.888] [Client 3] Train=750, Val=250, Test=250
+[17:32:36.888] [Client 4] Train=750, Val=250, Test=250
+[17:32:36.888] [Client 5] Train=750, Val=250, Test=250
+[17:32:36.889] [Client 6] Train=750, Val=250, Test=250
+[17:32:36.889] [Client 7] Train=750, Val=250, Test=250
+[17:32:36.890] [Client 8] Train=750, Val=250, Test=250
+[17:32:36.890] [Client 9] Train=750, Val=250, Test=250
+[17:32:36.891] [Client 10] Train=750, Val=250, Test=250
+[17:32:36.891] [Client 11] Train=750, Val=250, Test=250
+[17:32:36.892] [Client 12] Train=750, Val=250, Test=250
+[17:32:36.892] [Client 13] Train=750, Val=250, Test=250
+[17:32:36.892] [Client 14] Train=750, Val=250, Test=250
+[17:32:36.893] [Client 15] Train=750, Val=250, Test=250
+[17:32:36.893] [Client 16] Train=750, Val=250, Test=250
+[17:32:36.894] [Client 17] Train=750, Val=250, Test=250
+[17:32:36.894] [Client 18] Train=750, Val=250, Test=250
+[17:32:36.895] [Client 19] Train=750, Val=250, Test=250
+[17:32:36.895] [Virtual Client 0-0] Train=750
+[17:32:36.896] [Virtual Client 1-0] Train=750
+[17:32:36.896] [Virtual Client 2-0] Train=750
+[17:32:36.897] [Virtual Client 3-0] Train=750
+[17:32:36.897] [Virtual Client 4-0] Train=750
+[17:32:36.897] [Virtual Client 5-0] Train=750
+[17:32:36.898] [Virtual Client 6-0] Train=750
+[17:32:36.898] [Virtual Client 7-0] Train=750
+[17:32:36.899] [Virtual Client 8-0] Train=750
+[17:32:36.899] [Virtual Client 9-0] Train=750
+[17:32:36.900] [Virtual Client 10-0] Train=750
+[17:32:36.900] [Virtual Client 11-0] Train=750
+[17:32:36.900] [Virtual Client 12-0] Train=750
+[17:32:36.901] [Virtual Client 13-0] Train=750
+[17:32:36.901] [Virtual Client 14-0] Train=750
+[17:32:36.902] [Virtual Client 15-0] Train=750
+[17:32:36.902] [Virtual Client 16-0] Train=750
+[17:32:36.903] [Virtual Client 17-0] Train=750
+[17:32:36.903] [Virtual Client 18-0] Train=750
+[17:32:36.903] [Virtual Client 19-0] Train=750
+[17:32:36.907] Client Weights: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+[17:32:36.908] Training Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[17:32:36.908] Val Clients:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[17:32:36.908] =============== args ================
+[17:32:36.908] Namespace(clients=20, virtual_clients=1, lr=0.0003, lr_decay=-1, early=False, batch=16, rounds=100, local_epochs=1, mode='dp2rmsprop', pretrain=False, exp=None, save_path='../../experiments/v1.0/checkpoint/RSNA-ICH/seed6/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z1.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_adaVN_DA', resume=False, gpu='0', seed=6, debug=False, data='RSNA-ICH', sample_rate=1, leave='no', merge=False, balance=False, weighted_avg=False, split='UNI', local_bn=False, generalize=False, gn=False, selu=False, comb='times', free=-1, noisy=-1, alpha=1.0, adaclip=True, noclip=False, ema=0.0, mu=0.001, S=10, epsilon=None, noise_multiplier=1.5, delta=0.01, accountant='prv', dp_mode='overhead', balance_split=False, test=False, ckpt='None', adam_lr=0.1, dp2_interval=3, rmsprop_lr=3e-05, ada_vn=True, init_vn=False, ada_stable=False, ada_prog=False, domain_adaptation=True, log_path='../../experiments/v1.0/log/RSNA-ICH/seed6/dp2rmsprop_rounds100_localE1_lr0.0003_batch16_N20_sr1_VN1_overhead_z1.5_delta0.01_adaclip_rmsproplr=3e-05_PureAvg_adaVN_DA')
+[17:32:40.615] Using noise multiplier=1.5 and sigma on aggregation=0.75 to satisfy (36.88917782788349,0.01)-DP.
+[17:32:40.616] Using adaptive clipping.
+[17:32:40.616] Using prv accountant.
+[17:32:40.689] ============ Round 0, Local train epoch 0 ============
